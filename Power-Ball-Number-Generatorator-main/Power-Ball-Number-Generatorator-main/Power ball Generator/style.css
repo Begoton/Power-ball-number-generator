@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+#mainScreen{
+    height: 500px;
+    width: 780px;
+    background-color: white;
+}
+#mainScreenParent{
+    display: grid;
+    place-items: center;
+}
+#rand, #remember, #view{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 200ms;   
+}
+#rand:hover, #remember:hover, #view:hover{
+    background-color: black;
+    color: white;
+}
+#text{
+    color: black;
+    display: none;
+}
+#mainScreen h1{
+    color: black;
+}
+#number_one, #number_two, #number_three, #number_four, #number_five{
+    transition: 1000ms;
+}
+#save, #unsave{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: monospace;
+    display: none;
+}
+
